@@ -1,0 +1,6 @@
+Screen commands
+
+ * <ctrl>+a+n New window
+ * <ctrl>+a+n Next window
+ * <ctrl>+a+a Detach window
+ * screen -r  Reattach
