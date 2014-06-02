@@ -1,0 +1,21 @@
+Commands
+
+Switch modes:
+* i insert
+* <esc> edit
+
+Navigation:
+* k UP
+* j DOWN
+* h LEFT
+* l RIGHT 
+* w Next word
+* b Previous word
+* 0 Beginning of line 
+* $ End of line
+
+Editing:
+* yy Copy line
+* p  Paste 
+* dd Delete line
+* J  Join line
