@@ -2,5 +2,15 @@ Screen commands
 
  * <ctrl>+a+n New window
  * <ctrl>+a+n Next window
- * <ctrl>+a+a Detach window
+ * <ctrl>+a+d Detach window
  * screen -r  Reattach
+ * <ctrl>+a+a Switch recent two windows
+ * screen -list Lists all windows
+
+Multiscreen:
+
+ * <ctrl>+a <shift>+s Split vertical
+ * <ctrl>+a <shift>+| Split horizontal
+
+ * <ctrl>+a <tab> Switch between sections
+ * <ctrl>+a :remove Delete section
