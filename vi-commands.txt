@@ -13,9 +13,20 @@ Navigation:
  * b Previous word
  * 0 Beginning of line
  * $ End of line
+ * G Go to eof
+ * gg Go to first line
+ * #gg Go to line #
 
 Editing:
  * yy Copy line
  * p  Paste
  * dd Delete line
- * J  Join line
+ * J  Join lin
+ * u  Undo
+
+Searching:
+ * /keyword <Enter> Search for keyword
+ * n Jump to next match
+ * N Jump to previous match
+ * ggn Jump to first match
+ * GN Jump to the last match
