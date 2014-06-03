@@ -5,10 +5,7 @@ Switch modes:
  * <esc> edit
 
 Navigation:
- * k UP
- * j DOWN
- * h LEFT
- * l RIGHT
+ * <ctrl> (d or u) Scrolling half a page 
  * w Next word
  * b Previous word
  * 0 Beginning of line
@@ -23,10 +20,24 @@ Editing:
  * dd Delete line
  * J  Join lin
  * u  Undo
+ * <strg>u Redo
 
 Searching:
  * /keyword <Enter> Search for keyword
  * n Jump to next match
  * N Jump to previous match
  * ggn Jump to first match
- * GN Jump to the last match
+ * GN Jump to the last match 
+
+Buffers:
+
+ * :o file Open a buffer for file and show it in current window
+ * :badd file Open a buffer for file
+ * :bdelete # Delete buffer #
+ * :ls List all buffers
+ * :b# Switsch to buffer #
+
+Tabs:
+
+ * :tabnew create a new tab
+ * gt switch between tabs 
