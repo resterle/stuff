@@ -3,6 +3,8 @@ Commands
 Switch modes:
  * i insert
  * <esc> edit
+ * V visual line
+ * visual
 
 Navigation:
  * <ctrl> (d or u) Scrolling half a page 
