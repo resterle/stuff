@@ -1,0 +1,18 @@
+--TMUX Commands--
+
+ctrl-b <command>    Run <command< in tmux
+
+-Commands-
+
+  b  ->  create a new window
+  ,  ->  rename window
+ p,n ->  previous, next
+  w  ->  list open windows
+  %  ->  split vertical
+  d  ->  detach
+
+:<named-command> -> execute <named-command>
+
+tmux new -s <sessionnname> -> creates a new session with the name <sassionname>
+tmux list-session  -> lists all running sessions
+tmux attach -t <sessionname> -> attaches session with name <sessionname>
