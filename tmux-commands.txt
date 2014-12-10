@@ -10,6 +10,12 @@ ctrl-b <command>    Run <command< in tmux
   w  ->  list open windows
   %  ->  split vertical
   d  ->  detach
+  ]  ->  copy mode
+  ]  ->  pase from buffer
+
+-Copy mode-
+ space  -> start highlighting
+ enter  -> copy to buffer
 
 :<named-command> -> execute <named-command>
 
